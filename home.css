@@ -1,0 +1,112 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:pink;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    height: 40px;
+    position: relative;
+    bottom:15px;
+}
+.logo{
+    height:10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #0056b3;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #d1e4f5;
+    color: black;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8em;
+    margin: 0;
+}
+
+.hero-content .highlight {
+    color: #4c9efc;
+}
+
+.hero-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    margin: 20px 0;
+}
+
+.hero-content img {
+    width: 70%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; /* Adjusted to separate the image from the button */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    color: #ffffff;
+    background-color: #Faaa20;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff9d00; /* Changed to a slightly darker shade for better contrast */
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+    border-top: 1px solid #ddd;
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Matches homepage background */
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    height: 40px;
+    position:relative ;
+    bottom: 15px;
+}
+.logo{
+    height: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff; /* Blue color for nav links */
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #0056b3; /* Darker blue for hover/active state */
+}
+
+/* Features Section */
+.features {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #d1e4f5; /* Light blue background for features */
+}
+
+.features h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #4c9efc; /* Blue color for headings */
+}
+
+.feature-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    max-width: 300px; /* Adjust size of feature items */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth effect for hover */
+}
+
+.feature-item img {
+    width: 250px;
+    margin-bottom: 10px;
+    transition: transform 0.3s; /* Smooth transition */
+}
+
+.feature-item h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #333; /* Dark text color for subheadings */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    color: #666; /* Lighter text color for description */
+}
+
+.feature-item:hover {
+    transform: scale(1.05); /* Zoom effect for the entire container */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+.feature-item:hover img {
+    transform: scale(1.1); /* Zoom effect for the image on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* Matches homepage footer */
+    color: #333;
+    border-top: 1px solid #ddd;
+}

@@ -1,0 +1,95 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(215, 237, 249); /* Matches homepage background */
+    color: #333;
+}
+nav ul {
+    list-style:none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration:none;
+    color: #007bff; /* Blue color for nav links */
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #0056b3; /* Darker blue for hover/active state */
+}
+img{
+    height:40px;
+    position:relative;
+    bottom:15px
+}
+.div2{
+    color:black;
+    text-align: center;
+    position: relative;
+    top:20px;
+    height:450px
+}
+.div2 h1{
+    bottom:100px;
+}
+
+.logo{
+    height:10px ;
+}
+h2{
+    color: #3792fa;
+    text-align: center;
+    position:relative ;
+    bottom:400px;
+}
+.footer-content{
+    text-align: right;
+    position: relative;
+    right:150px;
+}
+footer div ul{
+    list-style: none;
+}
+footer div p.inline{
+    display: inline;
+}
+footer div.info{
+    position: relative;
+    top:80px;
+    left:40px;
+}
+.contact-info{
+    width: 250px;
+    text-align:center;
+    position: relative;
+    left:550px;
+    bottom: 300px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"]{
+    border-radius: 5px;
+    height: 30px;
+    width:200px ;
+    border:1px solid black;
+}
+
+
